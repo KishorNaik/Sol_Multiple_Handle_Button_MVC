@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol_Multiple_Button", "Sol_Multiple_Button\Sol_Multiple_Button.csproj", "{B85C950A-79C3-4C74-905C-D3191597EEEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85C950A-79C3-4C74-905C-D3191597EEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85C950A-79C3-4C74-905C-D3191597EEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85C950A-79C3-4C74-905C-D3191597EEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85C950A-79C3-4C74-905C-D3191597EEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {491A7A02-3A02-4BB5-8B4B-2ACBE0C777F0}
+	EndGlobalSection
+EndGlobal

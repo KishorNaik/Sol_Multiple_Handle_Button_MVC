@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form id="frmMain" asp-controller="Demo" method="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                
+
+                    <input id="btnSubmit" type="submit" value="Submit" class="btn btn-primary" onclick="onSubmit();return false;" />
+                    <input id="btnCancel" type="submit" value="Cancel" class="btn btn-danger" onclick="onCancel(); return false;" />
+
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{ 
+
+    <script>
+
+        function onSubmit() {
+
+            var urlSubmit ='@Url.Action("OnSubmit", "Demo")';
+            console.log(urlSubmit);
+
+            $("#frmMain").attr("action", urlSubmit);
+            $("#frmMain").submit();
+        }
+
+        function onCancel() {
+
+            var urlCancel='@Url.Action("OnCancel", "Demo")';
+            console.log(urlCancel);
+
+            $("#frmMain").attr("action", urlCancel);
+            $("#frmMain").submit();
+        }
+
+    </script>
+
+}
+
+
+
